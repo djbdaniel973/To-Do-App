@@ -15,7 +15,7 @@ def get_todos(filepath="Experiment1File.txt"):
 def write_todos(todo_items):
     """ Writes the to-do items list on the txt file. """
 
-    with open("Experiment1File.txt", "w") as file:
+    with open("../2. Defining Functions/Experiment1File.txt", "w") as file:
         file.writelines(todo_items)
 
 

@@ -13,7 +13,7 @@ while True:
     # Check if the user action is one of the recognized commands
     if user_action in ["add", "show", "edit", "completed", "delete", "clear"]:
         # Use the get_todos function to read the todo list from the file
-        todos = get_todos("Experiment1File.txt")
+        todos = get_todos("../2. Defining Functions/Experiment1File.txt")
 
         if user_action == "add":
             # Prompt the user to enter a new todo item
